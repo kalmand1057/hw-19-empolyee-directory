@@ -1,21 +1,24 @@
 import React from "react";
 
 const styles = {
-   filter: {
-       float: "right"
-   },
-   sort: {
-       float: "left"
-   },
-   bothdropdowns: {
-       margin: 20
-   }
-  };
+    filter: {
+        float: "right"
+    },
+    
+    sort: {
+        float: "left"
+    },
+    
+    bothdropdowns: {
+        margin: 10,
+        padding: 35
+    }
+}
 
 function Dropdown() {
   return (
-    <div className="both-dropdowns" style={styles.bothdropdowns}>
-        <div className="dropdown-one" style={styles.sort}>
+    <div className="bothdropdowns" style={styles.bothdropdowns}>
+        <div className="dropdown sort" style={styles.sort}>
             <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Sort
             </button>
@@ -26,7 +29,7 @@ function Dropdown() {
             </div>
         </div> 
 
-        <div className="dropdown-two" style={styles.filter}>
+        <div className="dropdown filter" style={styles.filter}>
             <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Filter
             </button>

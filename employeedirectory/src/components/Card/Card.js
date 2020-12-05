@@ -2,32 +2,37 @@ import React from "react";
 
 const styles = {
     card: {
-        margin: 20,
-        float: "left"
+        margin: 15
+    },
+    img: {
+        height: 100,
     }
-   };
+}
 
-function Card() {
+function Card(props) {
   return (
-    <div className="container" style={styles.card}>
-        <div className="card">
+    <div className="container">
+        <div className="card" style={styles.card}>
             <div className="card-body">
                 <div class="row">
                     <div class="col">
-                    image
+                        <img alt={props.name} src={props.image} style={styles.img}/>
                     </div>
                     <div class="col">
-                    name
+                        {props.name}
                     </div>
                     <div class="col">
-                    title
+                        {props.title}
                     </div>
                     <div class="col">
-                    email
+                        {props.email}
                     </div>
                 </div>
             </div>
         </div>
+        <span onClick={() => props.removeEmployee(props.id)} className="remove">
+        {/* 𝘅 */}
+      </span>
     </div>
   );
 }

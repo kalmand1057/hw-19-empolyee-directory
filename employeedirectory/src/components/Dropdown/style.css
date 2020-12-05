@@ -1,0 +1,11 @@
+.filter {
+    float: "right"
+}
+
+.sort {
+    float: "left"
+}
+
+.both-dropdowns {
+    margin: 20
+}
