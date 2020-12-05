@@ -6,6 +6,7 @@ const styles = {
     },
     img: {
         height: 100,
+        borderRadius: 50
     }
 }
 
