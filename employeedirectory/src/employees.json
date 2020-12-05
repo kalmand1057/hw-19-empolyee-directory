@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "image": "",
+        "name": "Michael Scott",
+        "title": "Regional Manager",
+        "email": "michaelscott@dundermifflin.com"
+    },
+    {
+        "id": 2,
+        "image": "",
+        "name": "Jim Halpert",
+        "title": "Salesman",
+        "email": "jimhalpert@dundermifflin.com"
+    },
+    {
+        "id": 3,
+        "image": "",
+        "name": "Pam Beesly",
+        "title": "Receptionist",
+        "email": "pambeesly@dundermifflin.com"
+    },
+    {
+        "id": 4,
+        "image": "",
+        "name": "Dwight Schrute",
+        "title": "Salesman",
+        "email": "dwightschrute@dundermifflin.com"
+    },
+    {
+        "id": 5,
+        "image": "",
+        "name": "Ryan Howard",
+        "title": "Intern",
+        "email": "ryanhoward@dundermifflin.com"
+    },
+    {
+        "id": 6,
+        "image": "",
+        "name": "Kelly Kapoor",
+        "title": "Customer Service Representative",
+        "email": "kellykapoor@dundermifflin.com"
+    },
+    {
+        "id": 7,
+        "image": "",
+        "name": "Toby Flenderson",
+        "title": "HR Representative",
+        "email": "tobyflenderson@dundermifflin.com"
+    },
+    {
+        "id": 8,
+        "image": "",
+        "name": "Kevin Malone",
+        "title": "Accountant",
+        "email": "kevinmalone@dundermifflin.com"
+    }
+]
